@@ -12,8 +12,9 @@ function odd(x){
             a.push(x[j]);
             
         }
+       
         
-        else if ((x[j]%2)!==0)
+        else if ((x[j]%2)!==0 && x[j]!==1)
         {
             
             a.push(x[j]);
